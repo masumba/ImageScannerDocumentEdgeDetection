@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                     RectF rectF = new RectF(item.getBoundingBox());
                     canvas.drawRect(rectF,rectPaint);
 
-                    scannedImageView.setScaleType(ImageView.ScaleType.FIT_XY);
+                    scannedImageView.setScaleType(ImageView.ScaleType.FIT_CENTER);
                     scannedImageView.setImageBitmap(bitmapTemp);
                 }
             }
